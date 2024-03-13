@@ -11,7 +11,7 @@ Limitez le joueur à 3 tentatives pour deviner le nombre secret. Si le joueur n'
 Étape 4: Gestion des parties successives
 Lorsque le joueur gagne deux parties successive, il double sa mise et l'inverse.
 
-Étape 6: Fin du jeu
+Étape 5: Fin du jeu
 Terminez le jeu lorsque la mise du joueur atteint zéro. Fournissez à l'utilisateur des informations claires sur le nombre de tentatives et les points gagnés ou perdus à la fin de chaque partie.
 
 
