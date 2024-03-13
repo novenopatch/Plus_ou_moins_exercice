@@ -2,15 +2,15 @@ import random
 import sys
 
 
-def jeu_plus_ou_moins(points=50,start=1,end=100):
+def jeu_plus_ou_moins(points: int = 50, range_int: tuple[int, int] = (1, 100)):
     print(f"Vous avez {points} points de départ.")
     print("Bienvenue dans le jeu Plus ou Moins!")
 
     consecutive_wins_and_losses = [0, 0]
 
     while points > 0:
-        random_int = random.randint(start, end)
-        print(random_int)
+        random_int = random.randint(range_int[0], range_int[1])
+        #print(random_int)
 
         for _ in range(3):
             try:
